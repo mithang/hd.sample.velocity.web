@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="hd.sample.velocity.web.netframework.MvcApplication" Language="C#" %>

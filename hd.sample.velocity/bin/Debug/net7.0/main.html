@@ -1,0 +1,14 @@
+## So sánh điều kiện với biến $variable1 được khai báo trong backend ##
+#if($variable1 == "Value 1")
+    <p>Variable 1 is equal to "Value 1"</p>
+#else
+    <p>Variable 1 is not equal to "Value 1"</p>
+#end
+
+## Lấy chiều dài dữ liệu trong biến ##
+<p>Length of variable 1: $variable1.length()</p>
+
+## Duyệt danh sách các biến trong $items, $items được khai báo trong backend ##
+#foreach($item in $items)
+    <li>$item</li>
+#end

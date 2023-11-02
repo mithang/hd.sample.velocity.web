@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "hd.sample.velocity/1.0.0": {
+        "dependencies": {
+          "NVelocity": "1.2.0"
+        },
+        "runtime": {
+          "hd.sample.velocity.dll": {}
+        }
+      },
+      "NVelocity/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/NVelocity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "hd.sample.velocity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NVelocity/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MdvJ90+CLKLwy1cvtQDMbQfYIiLUAmKtxP/fUyVI/bMBVgLTqKP51RwkxCL4t5GBidQ+fTPAjd0cve6Bt+7F8A==",
+      "path": "nvelocity/1.2.0",
+      "hashPath": "nvelocity.1.2.0.nupkg.sha512"
+    }
+  }
+}

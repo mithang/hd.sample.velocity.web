@@ -1,0 +1,33 @@
+## So sánh điều kiện với biến $variable1 được khai báo trong backend ##
+#if($variable1 == "Value 1")
+    <p>Variable 1 is equal to "Value 1"</p>
+#else
+    <p>Variable 1 is not equal to "Value 1"</p>
+#end
+
+## Lấy chiều dài dữ liệu trong biến ##
+<p>Length of variable 1: $variable1.length()</p>
+
+## Duyệt danh sách các biến trong $items, $items được khai báo trong backend ##
+#foreach($item in $items)
+    <li>$item</li>
+#end
+
+## Khai báo biến trong velocity ##
+#set($name = "John Doe")
+
+<p>Name : $name</p>
+
+## Khai báo mảng ##
+#set($fruits = ["apple", "banana", "orange"])
+#foreach($item in $fruits)
+<li>$item</li>
+#end
+
+<p>Info cho user: </p>
+<p>
+    First Name: $Person.FirstName<br/>
+    Last Name: $Person.LastName<br/>
+    Age: $Person.Age<br/>
+</p>
+

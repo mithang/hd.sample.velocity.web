@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/hd.sample.velocity.web.props" />
+</Project>

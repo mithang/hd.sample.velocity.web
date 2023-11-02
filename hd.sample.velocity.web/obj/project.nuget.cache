@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cWvOH8Jvqie6Dd89a2OsIQwu8x3bxeRLEybzr3L1BzDPC+cv8DKdZzunyKBCX25a24UVS5s8J4RjrcTz9OdCUQ==",
+  "success": true,
+  "projectFilePath": "/Users/mv962/Downloads/NetProjects/hd.sample.velocity.web/hd.sample.velocity.web/hd.sample.velocity.web.csproj",
+  "expectedPackageFiles": [
+    "/Users/mv962/.nuget/packages/nvelocity/1.2.0/nvelocity.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
